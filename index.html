@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Tyres - Automotive Services</title>
+    <meta name="description" content="Mega Tyres is a trusted automotive serving the Lavender Road, Pretoria community with quality services and a commitment to customer satisfaction.">
+    <meta property="og:title" content="Mega Tyres - Automotive Services">
+    <meta property="og:description" content="Mega Tyres is a trusted automotive serving the Lavender Road, Pretoria community with quality services and a commitment to customer satisfaction.">
+    <meta property="og:type" content="website">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --primary-color: ; --secondary-color: ; }
+        .primary-bg { background-color: var(--primary-color); }
+        .primary-text { color: var(--primary-color); }
+        .secondary-bg { background-color: var(--secondary-color); }
+        .secondary-text { color: var(--secondary-color); }
+        .hero-overlay { background: linear-gradient(135deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.4) 100%); }
+        .service-card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.12); }
+        .service-card { transition: all 0.3s ease; }
+        .badge-tag { border-left: 3px solid var(--primary-color); }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Top bar -->
+    <div class="primary-bg text-white text-sm py-2">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <span><i class="fas fa-phone mr-2"></i></span>
+            <div class="flex gap-4">
+                <span><i class="fas fa-clock mr-1"></i> Mon–Fri: 07:30–17:30 | Sat: 08:00–13:00</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Hero -->
+    <header class="relative overflow-hidden" style="min-height: 560px;">
+        <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Automotive Workshop" class="absolute inset-0 w-full h-full object-cover">
+        <div class="hero-overlay absolute inset-0"></div>
+        <div class="relative z-10 container mx-auto px-4 py-24 text-white">
+            <nav class="flex justify-between items-center mb-16">
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 rounded-full primary-bg flex items-center justify-center text-white font-bold text-xl">M</div>
+                    <span class="text-2xl font-bold">Mega Tyres</span>
+                </div>
+                <div class="hidden md:flex gap-8 text-sm font-medium">
+                    <a href="#services" class="hover:text-yellow-300 transition-colors">Services</a>
+                    <a href="#gallery" class="hover:text-yellow-300 transition-colors">Gallery</a>
+                    <a href="#contact" class="hover:text-yellow-300 transition-colors">Contact</a>
+                </div>
+            </nav>
+            <div class="max-w-2xl">
+                <span class="inline-block bg-yellow-400 text-black text-xs font-bold px-3 py-1 rounded-full mb-4 uppercase tracking-wider">Expert Automotive Care</span>
+                <h1 class="text-5xl font-extrabold mb-6 leading-tight">Your Trusted <span style="color: var(--secondary-color);">Auto Service</span> Specialists</h1>
+                <p class="text-xl mb-8 text-gray-200">Mega Tyres is a trusted automotive serving the Lavender Road, Pretoria community with quality services and a commitment to customer satisfaction.</p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="primary-bg text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Book a Service</a>
+                    <a href="#services" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors">View Services</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Trust Badges -->
+    <section class="bg-white border-b py-6">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="flex flex-col items-center gap-2"><i class="fas fa-shield-alt text-2xl primary-text"></i><span class="text-sm font-semibold">Certified Technicians</span></div>
+                <div class="flex flex-col items-center gap-2"><i class="fas fa-tools text-2xl primary-text"></i><span class="text-sm font-semibold">Modern Equipment</span></div>
+                <div class="flex flex-col items-center gap-2"><i class="fas fa-star text-2xl primary-text"></i><span class="text-sm font-semibold">Quality Guaranteed</span></div>
+                <div class="flex flex-col items-center gap-2"><i class="fas fa-tachometer-alt text-2xl primary-text"></i><span class="text-sm font-semibold">Fast Turnaround</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold primary-text mb-4">About Mega Tyres</h2>
+                    <div class="w-16 h-1 secondary-bg mb-6 rounded"></div>
+                    <p class="text-gray-600 mb-6 leading-relaxed text-lg">Mega Tyres is a trusted automotive serving the Lavender Road, Pretoria community with quality services and a commitment to customer satisfaction.</p>
+                    <div class="space-y-3">
+                        <div class="badge-tag pl-4 py-1"><span class="font-semibold">Address:</span> Lavender Road, Pretoria</div>
+                        <div class="badge-tag pl-4 py-1"><span class="font-semibold">Phone:</span> </div>
+                        <div class="badge-tag pl-4 py-1"><span class="font-semibold">Email:</span> </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Workshop" class="rounded-lg object-cover w-full h-40 shadow-md">
+                    <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Workshop" class="rounded-lg object-cover w-full h-40 shadow-md">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Workshop" class="rounded-lg object-cover w-full h-40 shadow-md">
+                    <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Workshop" class="rounded-lg object-cover w-full h-40 shadow-md">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold primary-text mb-3">Our Services</h2>
+                <p class="text-gray-500 max-w-xl mx-auto">Professional automotive services delivered by experienced technicians using the latest diagnostic tools and equipment.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow">
+                    <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Full Service &amp; Maintenance" class="w-full h-44 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold mb-2">Full Service &amp; Maintenance</h3>
+                        <p class="text-gray-500 text-sm mb-3">Complete vehicle service packages including oil change, filters and multi-point inspection</p>
+                        <span class="inline-block secondary-text font-bold text-sm">R850 - R2,500</span>
+                    </div>
+                </div>
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Tyre Sales &amp; Fitment" class="w-full h-44 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold mb-2">Tyre Sales &amp; Fitment</h3>
+                        <p class="text-gray-500 text-sm mb-3">Wide range of tyres from leading brands with professional fitting and balancing</p>
+                        <span class="inline-block secondary-text font-bold text-sm">From R650/tyre</span>
+                    </div>
+                </div>
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow">
+                    <img src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Panel Beating &amp; Spray Paint" class="w-full h-44 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold mb-2">Panel Beating &amp; Spray Paint</h3>
+                        <p class="text-gray-500 text-sm mb-3">Expert accident repair, dent removal, and professional vehicle respray services</p>
+                        <span class="inline-block secondary-text font-bold text-sm">Custom quote</span>
+                    </div>
+                </div>
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow">
+                    <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Engine Diagnostics" class="w-full h-44 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold mb-2">Engine Diagnostics</h3>
+                        <p class="text-gray-500 text-sm mb-3">Advanced computerised engine diagnostics and fault detection for all vehicle models</p>
+                        <span class="inline-block secondary-text font-bold text-sm">R350 - R750</span>
+                    </div>
+                </div>
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow">
+                    <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Electrical &amp; Accessories" class="w-full h-44 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold mb-2">Electrical &amp; Accessories</h3>
+                        <p class="text-gray-500 text-sm mb-3">Vehicle electrical repairs, car audio, security systems, and accessory fitment</p>
+                        <span class="inline-block secondary-text font-bold text-sm">From R450</span>
+                    </div>
+                </div>
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow">
+                    <img src="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Car Wash &amp; Valet" class="w-full h-44 object-cover">
+                    <div class="p-5">
+                        <h3 class="text-lg font-bold mb-2">Car Wash &amp; Valet</h3>
+                        <p class="text-gray-500 text-sm mb-3">Premium interior and exterior detailing, polishing, and protective treatments</p>
+                        <span class="inline-block secondary-text font-bold text-sm">R180 - R1,200</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold primary-text mb-8 text-center">Find Us</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div>
+                    <div class="bg-gray-50 rounded-xl p-6 space-y-4">
+                        <div><h4 class="font-bold mb-3">Operating Hours</h4>
+                            <div class="flex justify-between py-1 border-b border-gray-100 text-sm"><span class="text-gray-600">Mon - Fri</span><span class="font-medium">07:30 - 17:30</span></div>
+                            <div class="flex justify-between py-1 border-b border-gray-100 text-sm"><span class="text-gray-600">Saturday</span><span class="font-medium">08:00 - 13:00</span></div>
+                            <div class="flex justify-between py-1 border-b border-gray-100 text-sm"><span class="text-gray-600">Sunday</span><span class="font-medium">Closed</span></div>
+                        </div>
+                        <div class="space-y-2 pt-2">
+                            <p class="flex items-center gap-2 text-sm"><i class="fas fa-map-marker-alt primary-text w-5"></i>Lavender Road, Pretoria</p>
+                            <p class="flex items-center gap-2 text-sm"><i class="fas fa-phone primary-text w-5"></i></p>
+                            <p class="flex items-center gap-2 text-sm"><i class="fas fa-envelope primary-text w-5"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-xl overflow-hidden shadow-lg">
+                    <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCNnlUb43D9jUUcqAcrJRwlvCwaRUZS4uw&q=Lavender%20Road%2C%20Pretoria" width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4 max-w-2xl">
+            <h2 class="text-3xl font-bold primary-text mb-2 text-center">Book a Service</h2>
+            <p class="text-center text-gray-500 mb-8">Fill in your details and we'll get back to you to confirm your booking.</p>
+            <form class="bg-white rounded-xl shadow-lg p-8 space-y-5">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    <div><label class="block text-sm font-medium text-gray-700 mb-1">Full Name</label><input type="text" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2" placeholder="Your name"></div>
+                    <div><label class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label><input type="tel" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2" placeholder="e.g. 082 123 4567"></div>
+                </div>
+                <div><label class="block text-sm font-medium text-gray-700 mb-1">Vehicle (Make & Model)</label><input type="text" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2" placeholder="e.g. Toyota Fortuner 2020"></div>
+                <div><label class="block text-sm font-medium text-gray-700 mb-1">Service Required</label>
+                    <select class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2">
+                        <option value="">Select a service...</option>
+                        <option value="Full Service &amp; Maintenance">Full Service &amp; Maintenance</option><option value="Tyre Sales &amp; Fitment">Tyre Sales &amp; Fitment</option><option value="Panel Beating &amp; Spray Paint">Panel Beating &amp; Spray Paint</option><option value="Engine Diagnostics">Engine Diagnostics</option><option value="Electrical &amp; Accessories">Electrical &amp; Accessories</option><option value="Car Wash &amp; Valet">Car Wash &amp; Valet</option>
+                    </select>
+                </div>
+                <div><label class="block text-sm font-medium text-gray-700 mb-1">Preferred Date</label><input type="date" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2"></div>
+                <div><label class="block text-sm font-medium text-gray-700 mb-1">Additional Notes</label><textarea rows="3" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2" placeholder="Describe the issue or any special requests..."></textarea></div>
+                <button type="submit" class="w-full primary-bg text-white py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">Submit Booking Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-3">Mega Tyres</h3>
+                    <p class="text-gray-400 text-sm">Mega Tyres is a trusted automotive serving the Lavender Road, Pretoria community with quality services and a commitment to customer satisfaction.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">Quick Links</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#services" class="hover:text-white">Our Services</a></li>
+                        <li><a href="#gallery" class="hover:text-white">Gallery</a></li>
+                        <li><a href="#contact" class="hover:text-white">Book a Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">Contact</h4>
+                    <div class="space-y-2 text-sm text-gray-400">
+                        <p><i class="fas fa-map-marker-alt mr-2"></i>Lavender Road, Pretoria</p>
+                        <p><i class="fas fa-phone mr-2"></i></p>
+                        <p><i class="fas fa-envelope mr-2"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-6 text-center text-gray-500 text-sm">
+                &copy; 2026 Mega Tyres. All rights reserved. | Website by WebPulse AI
+                <br><a href="/api/sites/95/source" download class="underline hover:text-white mt-1 inline-block">Download Source Code</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const SITE_ID = 95;
+        const form = document.querySelector('form');
+        if (form) {
+            const msgBox = document.createElement('div');
+            msgBox.id = 'form-msg';
+            msgBox.style.cssText = 'display:none;margin-top:1rem;padding:1rem;border-radius:0.5rem;text-align:center;font-weight:600;';
+            form.appendChild(msgBox);
+            form.addEventListener('submit', async function(e) {
+                e.preventDefault();
+                const btn = form.querySelector('[type="submit"]');
+                const orig = btn ? btn.textContent : '';
+                if (btn) { btn.disabled = true; btn.textContent = 'Sending...'; }
+                const data = { formType: 'booking' };
+                form.querySelectorAll('input,select,textarea').forEach(function(el) {
+                    const label = el.closest('div')?.querySelector('label')?.textContent?.trim() || el.name || el.id || el.type;
+                    data[label] = el.value;
+                });
+                try {
+                    const res = await fetch('/api/site-contact/' + SITE_ID, {
+                        method: 'POST', headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(data)
+                    });
+                    if (res.ok) {
+                        form.reset();
+                        msgBox.style.display = 'block'; msgBox.style.background = '#dcfce7'; msgBox.style.color = '#166534';
+                        msgBox.textContent = 'Booking request submitted! We will contact you to confirm your appointment.';
+                    } else { throw new Error(); }
+                } catch (err) {
+                    msgBox.style.display = 'block'; msgBox.style.background = '#fee2e2'; msgBox.style.color = '#991b1b';
+                    msgBox.textContent = 'Something went wrong. Please call us directly to book your service.';
+                } finally { if (btn) { btn.disabled = false; btn.textContent = orig; } }
+            });
+        }
+        document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+            a.addEventListener('click', function(e) {
+                e.preventDefault();
+                const t = document.querySelector(this.getAttribute('href'));
+                if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+    </script>
+</body>
+</html>
